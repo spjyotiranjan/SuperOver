@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    
+}
+.main{
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+main{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding: 0px 100px; */
+}
+
+#ind-score{
+    width: 350px;
+    height: 300px;
+    background-color: #0d4d96;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 40px 45px;
+}
+#pak-score{
+    width: 350px;
+    height: 300px;
+    background-color: #48a131;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 40px 45px;
+}
+.ball{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+    font-weight: bolder;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+span{
+    font-size: 40px;
+    font-weight: 600;
+}
+#strike, #reset{
+    width: 80px;
+    height: auto;
+}
+footer{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.button:active{
+    animation: clickbutton 0.2s ease-in-out;
+}
+
+@keyframes clickbutton{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
